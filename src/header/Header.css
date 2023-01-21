@@ -1,0 +1,49 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    /* position:fixed; */
+    /* top: 0; */
+    /* width: 100vw; */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.headerContainerBlack{
+    background-color: #111;
+}
+
+.headerLeft{
+    flex: 0.5;
+    background-color: white;
+    color: gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    min-width: 70px;
+}
+
+.headerLeft > input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+    
+}
+
+.headerRight > h4{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+}

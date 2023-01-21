@@ -1,0 +1,8 @@
+.player{
+
+}
+
+.playerBody{
+    display: flex;
+    flex-direction: row;
+}

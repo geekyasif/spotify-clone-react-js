@@ -1,0 +1,77 @@
+.playerBodyContainer{
+    flex: 0.9;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(#2E2043, rgba(0,0,0,1));
+    overflow: scroll;
+    /* padding-bottom: 20px; */
+}
+
+.playerBodyInfo{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-end;
+
+}
+
+.discoverWeeklyImg{
+    width: 220px;
+    height: 220px;
+    margin-left: 30px;
+}
+
+.playerBodyText{
+    margin-left: 20px;
+}
+
+.playerBodyText > strong{
+    letter-spacing: 2px;
+}
+
+.playerBodyText > h2{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.bodyIconFav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bodySong{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    padding-bottom: 100px;
+    background: linear-gradient(#140E1D, rgba(0,0,0,1));
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.playerBodyTextUsernameAndTotalSongParagraph{
+    font-size: 14px;
+}
+
+.playerBodyTextUsername{
+    color: white;
+    
+    font-weight: bold;
+}
+
+.playerBodyTextTotalSong{
+    /* font-weight: 450; */
+}
+
+.playerBodyTextDuration{
+
+    color: #808B96;
+    font-weight: bold;
+
+}
+
+.dot{
+    font-weight: 900;
+}
